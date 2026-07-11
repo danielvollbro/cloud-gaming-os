@@ -38,7 +38,7 @@ jobs:
       - name: Install build dependencies
         run: |
           dnf update -y
-          dnf install -y git tar gzip podman rpm-ostree curl sudo
+          dnf install -y git tar gzip podman rpm-ostree curl sudo nodejs
 
       - name: Checkout
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
